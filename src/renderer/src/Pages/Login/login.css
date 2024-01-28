@@ -1,0 +1,139 @@
+.Login_page {
+  /* background: url("../../assets/casher.jpg"); */
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e6e9ef;
+  /* width: 100%; */
+}
+
+.login_content h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Login_page .login_content {
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding: 0px 10px;
+
+}
+
+.loding_parent {
+  padding: 10px 10px;
+  background-color: #f1f5f6;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.loding_parent h5 {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: #73c4dc;
+  font-size: 30px;
+  margin-bottom: 20px;
+  background-color: #f1f5f6;
+}
+
+.loding_parent .left {
+  /* width: 200px; */
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  background: url("/src/assets/pos-logo.png");
+  background-size: cover;
+  background-color: #73c4dc;
+  border-radius: 10px;
+}
+
+.loding_parent .right {
+  width: 49%;
+  padding: 10px;
+}
+
+.loding_parent .right>div {
+  margin-bottom: 10px;
+}
+
+.loding_parent .right input,
+.loding_parent .right label {
+  width: 100%;
+  display: block;
+
+}
+
+.loding_parent .right label {
+  margin-bottom: 10px;
+}
+
+.keyboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.log_btn {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log_btn button {
+  width: 200px;
+  display: block;
+  text-align: center;
+  background-color: #73c4dc;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+  border-radius: 10px;
+}
+
+.keyboard-container input,
+.keyboard-container label {
+  width: 100%;
+}
+
+.keyboard-container label {
+  margin-bottom: 10px;
+}
+
+.keyboard-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 60px;
+}
+
+button.back_space {
+  width: 100%;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}

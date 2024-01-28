@@ -1,0 +1,97 @@
+.productBox {
+    display: flex;
+    min-height: 100px;
+    max-height: 190px;
+    transition: .5s ease-in-out;
+    width: 220px;
+    flex-direction: column;
+    padding: 10px;
+    background: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 2px 2px 25px -2px #80808026;
+    border: 1px solid transparent;
+}
+
+.productBox .addiotionalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.products {
+    min-width: 800px;
+    max-width: calc(100% - 700px) !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.productBox .addiotionalInfo span {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productBox .addiotionalInfo span span {
+    max-width: fit-content;
+}
+
+.productBox:hover,.productBox.active{
+    border: 1px solid #02a69c;
+    scale: 1.1;
+}
+
+.productOptions {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+h3.optionLabel {
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: .1px solid;
+}
+
+.addInputField {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+}
+.sizes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fields input {
+    border: 0.1px solid #80808029;
+    border-radius: 6px;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 2fr));
+    align-items: center;
+}
+
+.changerInputs>* {
+    width: fit-content;
+}
+
+.changerInputs {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(min(190px, 100%), 4fr));
+}
+
+.setQuantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

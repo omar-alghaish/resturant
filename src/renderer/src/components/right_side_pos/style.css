@@ -1,0 +1,118 @@
+aside.right_side {
+  width: 300px;
+  height: 100vh;
+  position: sticky;
+  left: 0px;
+  min-width: 360px;
+  /* height: 100%; */
+  top: 0;
+  z-index: 2123123;
+  background: white;
+  overflow: auto;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right_side_nav {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 18px;
+  align-items: center;
+  border-bottom: 0.3px solid #80808047;
+}
+
+aside.right_side>* {
+  width: 100%;
+  padding: 20px;
+}
+
+.right_side_center {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+input#form1 {
+  width: 50px !important;
+}
+
+.container {
+  position: sticky;
+  bottom: 0;
+  padding: 0 20px 4px 20px !important;
+  justify-content: center;
+}
+
+.calculator button {}
+
+.paySection input::placeholder {
+  font-size: 13px;
+}
+
+.paySection input {
+  padding: 7px;
+  width: 80px;
+  border-radius: 4px;
+  outline: none;
+  border: 0.1px solid;
+}
+
+.paySection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .right_side.open {
+  position: sticky;
+  width: 300px;
+  left: 0;
+  top: 0;
+  transition: .3s;
+} */
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(12, 181, 0);
+  border-radius: 5px;
+  padding: 0 10px;
+  height: 50px;
+  color: white;
+  gap: 5px;
+
+
+}
+
+.order p {
+  margin-top: 15px;
+  flex-grow: 1;
+}
+
+.closeIcon {
+  cursor: pointer;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
